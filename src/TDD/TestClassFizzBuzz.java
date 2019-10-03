@@ -9,7 +9,7 @@ class TestClassFizzBuzz {
 	@Test
 	void test_input_is_1_expect_output_is_1() {
 		FizzBuzz fizzbuzz = new FizzBuzz();
-		int input = fizzbuzz.printStringinput(1);
+		int input = fizzbuzz.printStringinput (1);
 		assertEquals(1, input);
 	}
 
