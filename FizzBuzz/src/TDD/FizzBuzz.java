@@ -2,8 +2,15 @@ package TDD;
 
 public class FizzBuzz {
 
-	public int printStringinput(int number) {
-		return number;
+	public String printStringinput(int number) {
+		String result = Integer.toString(number);
+		if(number%3 == 0) {
+			result = "Fizz";
+			return result;
+		}else {
+			return result;
+		}
+		
 	}
 
 }
