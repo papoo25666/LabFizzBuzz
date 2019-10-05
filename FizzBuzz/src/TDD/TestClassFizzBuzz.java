@@ -7,10 +7,10 @@ import org.junit.jupiter.api.Test;
 class TestClassFizzBuzz {
 
 	@Test
-	void test_input_is_5_expect_output_is_Buzz() {
+	void test_input_is_6_expect_output_is_Fizz() {
 		FizzBuzz fizzbuzz = new FizzBuzz();
-		String input = fizzbuzz.printStringinput(5);
-		assertEquals("Buzz", input);
+		String input = fizzbuzz.printStringinput(6);
+		assertEquals("Fizz", input);
 	}
 
 }
